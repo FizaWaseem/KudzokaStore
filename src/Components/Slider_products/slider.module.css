@@ -1,0 +1,17 @@
+.Slider{
+    margin: 1rem .5rem;
+}
+.box{
+    
+    height: auto;
+    padding: 0rem;
+    margin: 0 2rem;
+    text-align: center;
+}
+.box:hover{
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+   color: black;
+}

@@ -1,0 +1,328 @@
+.header{
+    height: 95px;
+    width: 100%;
+    filter: drop-shadow(0px 3px 3.5px rgba(0,0,0,0.1));
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.location{
+    margin-top: 2rem !important;
+    margin-left: -5rem !important; 
+}
+.headicon{
+    margin-left: 5px !important;
+}
+.menuicon{
+    margin-top: 2.7rem;
+    min-width: 0px !important;
+    padding: 0px !important;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+}
+.btn_head{
+  min-width: 0px !important;
+    padding: 0px !important;
+}
+.storeimg{
+    width: 70px;
+    height:70px;
+}
+.GroceryStore{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    margin-top: 0.6rem;
+    margin-left: 5rem;
+}
+.btn{
+    margin-top: 1rem !important;
+    margin-left: 0rem !important; 
+}
+.image
+{
+    width: 100%;
+    text-align: center;
+}
+.img
+{
+    width: 20%;
+    
+}
+.imgcart{
+    width: 37px;
+    height: 43px;
+}
+.margin2{
+    margin-top: 1rem !important;
+    margin-left: 3rem !important;
+    
+}
+.Vendormargin{
+    margin-top: 1rem !important;
+   
+    text-align: end;
+        width: 100%;  
+}
+
+
+/*======================== Nav bar header/footer =================================*/
+.drawer{
+    overflow-x: hidden !important;
+}
+.Groceryimg{
+    width: 120px !important;
+    height: 100px;
+    margin-bottom: 1rem !important;
+}
+.GroceryStorelogo{
+    width: 100% !important;
+    margin-left: 3rem !important;
+    
+}.ListItem{
+    margin-left: 3rem !important;
+}
+.ListIcon{
+    margin-right: -1rem !important;
+}
+.kudzoka{
+    width: 100px !important;
+    height: 100px !important;
+    margin-left: 3rem !important;
+    margin-top: 4rem !important;
+}
+/* ===========================================Media query======================== */
+
+@media only screen and (max-width: 379px)  {
+   
+    .img
+    {
+        width: 100% !important;
+
+    }
+    .header{
+        height: 80px;
+        
+       
+    }
+    .storeimg{
+        width: 80px;
+        height:40px;
+    }
+    .GroceryStore{
+        width: 80%;
+        margin-left: .5rem !important;
+    }
+    .location{
+        margin-left: 0.4rem !important; 
+    }
+   
+    .margin{
+        
+        margin-left: 0rem !important;
+       
+    }
+}
+
+@media only screen and (min-width: 380px) and (max-width:669px) {
+   
+    .img
+    {
+        width: 80% !important;
+
+    }
+    .header{
+        height: 90px;       
+    }
+    .storeimg{
+        width: 80px !important;
+           height: 70px;
+       }
+       .GroceryStore{
+          
+           margin-left: 1.5rem !important;
+       }
+       .location{
+        
+        margin-left: 0rem !important; 
+    }
+}
+@media only screen and (min-width: 670px) and (max-width: 899px) {
+   
+    .img
+    {
+        width: 40% !important;
+
+    }
+    .header{
+        height: 90px;
+        
+       
+    }
+    .location{
+      
+        margin-left: 0rem !important; 
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+   
+    .img
+    {
+        width: 32% !important;
+
+    }
+}
+@media only screen and (max-width: 670px) {
+    .margin{
+        
+        margin-left: .4rem !important;
+        width: 5%;
+    }
+    .headicon{
+        margin-left: 0px !important;
+        font-size: 12px !important;
+    }
+    .text{
+        font-size: 12px !important;
+       
+    }
+    .margin2{
+        margin-top: 1rem !important;
+        margin-left: .4rem !important;
+        
+    } 
+
+.bell{
+    width: 25px;
+    height: 25px;
+}
+/* Nav bar header/footer */
+.Groceryimg{
+    width: 100px;
+    height: 100px;
+}
+.GroceryStorelogo{
+   
+    margin-left: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+.kudzoka{
+    width: 100px !important;
+    height: 100px !important;
+    margin-left: 3rem !important;
+    margin-top: 1rem !important;
+}
+
+.margin{
+    margin-left: 0rem !important;
+    width: 10%;
+}
+}
+@media only screen and (max-width: 800px) {
+   
+   
+    .imgcart{
+        max-width: 40px;
+        max-height: 25px;
+    }
+}
+.Balance{
+    margin-top: 1rem !important;
+    text-decoration: none;
+    margin-right: .3rem !important;
+}
+.margin{
+    margin-top: 1rem !important;
+    margin-left: 0.2rem !important;
+} 
+.margin2{
+    margin-top: 1rem !important;
+    margin-left: 1rem !important;
+    
+}
+/* Footer css */
+.Footer{
+    background: #2E2D2E;
+}
+.Footerdetail{
+    border-bottom: 1px solid white;
+}
+.Footerlogo{
+   width: 40%;
+   margin-top: 2rem;
+ 
+}
+.social{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}.img1{
+    margin-right: 1rem;
+    width: 30%;
+}
+.img2{
+    width: 30%;
+}
+.socialtext{
+    letter-spacing: .5px;
+    font-size: 15px;
+    margin-bottom: 8px !important;
+    font-weight: 300;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fb{
+    margin-right: 1rem;
+    width: 50%;
+}
+.insta{
+    width: 100%;
+}
+.whatsapp{
+    margin-left: 1rem;
+    width: 50%;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+}
+
+
+
+@media only screen and  (min-width: 670px) and (max-width: 800px) {
+    .kudzoka{
+        width: 100px !important;
+        height: 100px !important;
+        margin-left: 3rem !important;
+        margin-top: 1rem !important;
+    }
+    .Groceryimg{
+        width: 100px;
+        height: 100px;
+    }
+    .GroceryStorelogo{
+       
+        margin-left: 3rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+}

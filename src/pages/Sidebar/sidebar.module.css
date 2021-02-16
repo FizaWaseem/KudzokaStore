@@ -1,0 +1,106 @@
+.main{
+    margin-top: 2rem !important;
+    
+   
+}
+.select1{
+    border: 1px solid #bcbcbc !important;
+    margin-top: 1rem !important;
+    margin-left: 2rem !important;
+    height: 13rem;
+    margin-bottom: 4rem !important;
+}
+
+.createprofile{
+    display: flex;
+    color: black ;
+    margin-top: 0rem;
+    border-bottom: 1px solid #bcbcbc;
+    height: 3rem;
+    font-size: 15px !important;
+    width: 85%;
+    float: right;
+    align-items: center;
+    padding-left: 0rem !important;
+}
+
+.createprofile:hover{
+    cursor: pointer;
+}
+
+.createprofiletext:hover{
+    font-weight: 500;
+    color: black;
+  }
+.createprofiletext{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.logout{
+  display: flex;
+  color: black ;
+  margin-top: 0rem;
+  height: 3rem;
+  font-size: 15px !important;
+  width: 85%;
+  float: right;
+  align-items: center;
+  padding-left: 0rem !important;
+}
+.logout{
+  font-weight: 500;
+  color: black;
+}
+
+
+
+@media only screen and (max-width: 670px) {
+.main{
+  margin: auto !important;
+}
+.select1{
+
+  margin-left: .5rem !important;
+  margin-right: .5rem !important;
+ 
+}
+
+
+  .createtext{
+    font-weight: 500;
+    font-size: 14px;
+    
+  }
+  .createprofile{
+  
+    border-bottom: none;
+  
+    width: 90%;
+   
+}
+  .createprofiletext{
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .text{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .text1{
+    font-size: 14px;
+  }
+
+}
+@media only screen and (min-width: 900px) {
+  .select2{
+ 
+    margin-left: 0rem !important;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .select2{
+ 
+    margin-left: 2rem !important;
+  }
+}

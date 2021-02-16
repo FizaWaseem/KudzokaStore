@@ -1,0 +1,65 @@
+
+.Select{
+  border: 2px solid #bcbcbc;
+  font-weight: 700;
+
+}
+.account{
+  width: 100%;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  font-weight: 500;
+  font-size: 15px !important;
+  text-transform: capitalize !important;
+   color: black;
+  margin-left: .4rem !important;
+}
+  .list{
+   
+    font-weight: 700;
+   
+  }
+.list:hover {
+    border-left:'1px solid black';
+  }
+ 
+   
+  @media only screen and (max-width: 670px) {
+    .Select{
+      font-size: 12px;
+      font-weight: 700;
+    
+    } 
+    .account{
+      width: 100%;
+      padding-left: .2rem;
+      padding-right: .2rem;
+      font-weight: 500;
+      font-size: 12px !important;
+      margin-left: .1rem !important;
+    } 
+   
+}
+@media only screen and (min-width: 670px) and (max-width: 800px) {
+ 
+  .account{
+    width: 100%;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    font-size: 15px !important;
+    margin-left: .5rem !important;
+  } 
+ 
+}
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+ 
+  .account{
+    width: 100%;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    font-size: 15px !important;
+    margin-left: .1rem !important;
+  } 
+ 
+}
+

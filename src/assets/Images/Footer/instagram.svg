@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="25" height="25">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-553 -656L87 -656L87 72L-553 72Z" />
+		</clipPath>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="0.689" y1="0.5" x2="16.939" y2="16.75">
+			<stop offset="0" stop-color="#92278f"  />
+			<stop offset="1" stop-color="#25aae1"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="4.611" y1="4.422" x2="13.017" y2="12.828">
+			<stop offset="0" stop-color="#92278f"  />
+			<stop offset="1" stop-color="#25aae1"  />
+		</linearGradient>
+		<linearGradient id="grd3" gradientUnits="userSpaceOnUse"  x1="12.018" y1="3.447" x2="14.032" y2="5.461">
+			<stop offset="0" stop-color="#92278f"  />
+			<stop offset="1" stop-color="#25aae1"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: url(#grd2) } 
+		.shp2 { fill: url(#grd3) } 
+	</style>
+	<g id="Product detail" clip-path="url(#cp1)">
+		<g id="footer">
+			<g id="Group 275">
+				<g id="instagram">
+					<path id="Path 109" fill-rule="evenodd" class="shp0" d="M16.94 5.34L16.94 11.91C16.94 14.58 14.77 16.75 12.1 16.75L5.53 16.75C2.86 16.75 0.69 14.58 0.69 11.91L0.69 5.34C0.69 2.67 2.86 0.5 5.53 0.5L12.1 0.5C14.77 0.5 16.94 2.67 16.94 5.34ZM15.3 11.91L15.3 5.34C15.3 3.57 13.87 2.13 12.1 2.13L5.53 2.13C3.76 2.13 2.32 3.57 2.32 5.34L2.32 11.91C2.32 13.68 3.76 15.12 5.53 15.12L12.1 15.12C13.87 15.12 15.3 13.68 15.3 11.91Z" />
+					<path id="Path 110" fill-rule="evenodd" class="shp1" d="M13.02 8.62C13.02 10.94 11.13 12.83 8.81 12.83C6.5 12.83 4.61 10.94 4.61 8.62C4.61 6.31 6.5 4.42 8.81 4.42C11.13 4.42 13.02 6.31 13.02 8.62ZM11.38 8.62C11.38 7.21 10.23 6.06 8.81 6.06C7.4 6.06 6.25 7.21 6.25 8.62C6.25 10.04 7.4 11.19 8.81 11.19C10.23 11.19 11.38 10.04 11.38 8.62Z" />
+					<path id="Ellipse 5" class="shp2" d="M13.03 5.46C12.47 5.46 12.02 5.01 12.02 4.45C12.02 3.9 12.47 3.45 13.03 3.45C13.58 3.45 14.03 3.9 14.03 4.45C14.03 5.01 13.58 5.46 13.03 5.46Z" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

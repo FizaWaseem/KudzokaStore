@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13" width="13" height="13">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-47 -115L593 -115L593 613L-47 613Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #707070 } 
+	</style>
+	<g id="Product detail" clip-path="url(#cp1)">
+		<g id="Group 404">
+			<g id="Group 403">
+				<g id="Group 400">
+					<g id="clock">
+						<path id="Path 150" fill-rule="evenodd" class="shp0" d="M13 6.75C13 10.2 10.2 13 6.75 13C3.3 13 0.5 10.2 0.5 6.75C0.5 3.3 3.3 0.5 6.75 0.5C10.2 0.5 13 3.3 13 6.75ZM12.1 6.75C12.1 3.8 9.7 1.4 6.75 1.4C3.8 1.4 1.4 3.8 1.4 6.75C1.4 9.7 3.8 12.1 6.75 12.1C9.7 12.1 12.1 9.7 12.1 6.75Z" />
+						<path id="Path 151" class="shp0" d="M9.96 6.64L7.03 6.64L7.03 3.43C7.03 3.19 6.83 2.99 6.58 2.99C6.33 2.99 6.13 3.19 6.13 3.43L6.13 7.09C6.13 7.34 6.33 7.54 6.58 7.54L9.96 7.54C10.21 7.54 10.41 7.34 10.41 7.09C10.41 6.85 10.21 6.64 9.96 6.64Z" />
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

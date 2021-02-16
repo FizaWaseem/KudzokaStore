@@ -1,0 +1,122 @@
+.styletab{
+    font-size: 14px;
+    margin: 0rem  !important;
+    padding: 0rem !important;
+}
+
+.tab{
+    margin: 0rem  !important;
+    padding: 0rem !important;
+}
+.icon{
+    margin-right: .2rem !important;
+    font-weight: 600 !important;
+  
+}
+
+.menu{
+    background-color: #25AAE1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    
+}
+
+/* .item{
+    width: fit-content;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    
+}
+.item:hover{
+    transition: .4s  ease-in-out;
+    border-bottom: 3px solid white;
+    } */
+
+.navLink{
+    text-decoration: none !important;
+    color: rgb(236, 236, 236) !important;
+}
+    .item {
+        text-decoration: none;
+        position: relative;
+        display: block;
+        padding: 16px 0;
+        margin: 0 12px;
+        text-transform: capitalize;
+        transition: color 0.1s, background-color 0.1s;
+        color: rgb(236, 236, 236);
+      }
+      .navLink:hover {
+        color: #ffffff !important;
+      }
+      .navLink:focus, .navLink:active {
+        color: #ffffff !important;
+      }
+      .item:hover {
+        color: #ffffff !important;
+      }
+      .item:focus, .item:active {
+        color: #ffffff !important;
+      }
+      
+      
+      .item::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 98%;
+        height: 3px;
+        width: 100%;
+        background-color: #ffffff;
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  transition: color 0.1s, -webkit-transform 0.2s ease-out;
+  transition: color 0.1s, transform 0.2s ease-out;
+  transition: color 0.1s, transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.item:active::before {
+  background-color: #ffffff;
+}
+
+.item:hover::before,
+.item:focus::before {
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+  
+      
+    
+      
+     
+@media (max-width: 720px)
+{
+.styletab {
+    width: 390px !important; 
+    font-size: 9px;
+   
+}
+.menu{
+    display: none !important;
+}
+}
+@media (min-width: 720px) and (max-width: 800px)
+{
+.styletab {
+    min-width: 120px !important; 
+   
+}
+.item {
+    padding: 1px 0;
+    margin: 0 5px;
+    font-size: 14px !important;
+    
+  }
+}

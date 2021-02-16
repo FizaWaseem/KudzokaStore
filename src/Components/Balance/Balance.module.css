@@ -1,0 +1,33 @@
+.head_Balance{
+    color:#707070;
+    font-size: 14px !important;
+    margin-bottom: 5px !important;
+}
+.amount_Balance{
+    color: black;
+    font-size:15px;
+    font-weight:500;
+}
+@media only screen and (max-width: 380px) {
+
+    .head_Balance{
+        font-size:9px !important;
+        margin-bottom: 4px !important;
+    }
+    .amount_Balance{
+        font-size:9px !important;
+        
+    }
+}
+@media only screen and (min-width: 380px) and (max-width: 800px) {
+    .head_Balance{
+        font-size:13px !important;
+        margin-top: 2px !important;
+        margin-bottom: 1px !important;
+    }
+    .amount_Balance{
+        font-size:12px !important;
+        margin-right: 2px !important;
+        
+    }
+}
